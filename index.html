@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosquito hit Simple PC Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="gameboard">
+        <div class="playground">
+
+            <h2 class="liveScore">0</h2>
+
+            <img class="mosquito" id="mosquito" onclick="hitMosquito()" src="https://i.ibb.co/34nTyV5/png-transparent-mosquito-insect-pest-fly-wing-line-pollinator-thumbnail-removebg-preview.png">
+        </div>
+        <div class="controls">
+            <h3>
+                <span>Max Score:</span>
+                <span id="maxhit">0</span>
+            </h3>
+
+            <button onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
